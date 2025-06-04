@@ -8,16 +8,11 @@ This project demonstrates a real-time student depression prediction pipeline usi
 
 ```
 Submission/
-├── BIG DATA ANALYSIS CANVA PRESENTATION.pdf
 ├── Final Project.ipynb
 ├── Kafka Producer.ipynb
-├── README.txt
 ├── Student_Depression_Dataset.csv
 └── Synthetic_Students_for_Streaming.csv
 ```
-
-- **BIG DATA ANALYSIS CANVA PRESENTATION.pdf**  
-  A Canva-based presentation outlining the project goals, architecture, and results.
 
 - **Final Project.ipynb**  
   Main Jupyter notebook implementing:
@@ -27,9 +22,6 @@ Submission/
 
 - **Kafka Producer.ipynb**  
   Jupyter notebook containing the Kafka producer logic. It reads `Synthetic_Students_for_Streaming.csv` and streams records to a Kafka topic at a configurable interval.
-
-- **README.txt**  
-  Original plain-text instructions and setup guidelines for running the project.
 
 - **Student_Depression_Dataset.csv**  
   Real student depression dataset used for batch model training (covering features like demographic, lifestyle, and mental health indicators).
